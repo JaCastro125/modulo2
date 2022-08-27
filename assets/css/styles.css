@@ -1,0 +1,198 @@
+/* Barra de navegacion*/
+.navbar.navbar-expand-lg.bg-light{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(133,150,206,1) 50%, rgba(0,36,152,1) 100%);
+}
+i.fa-solid.fa-user-lock:hover{
+    color:green;
+}
+.list-group {
+    --bs-list-group-color: white !important;
+    --bs-list-group-bg: none !important;
+    --bs-list-group-border-color: none !important;
+}
+i.fa-brands {
+    color:aliceblue;
+}
+i.fa-brands:hover {
+    color:rgb(96, 144, 207);
+}
+ul.list-group.list-group-horizontal {
+    font-size: 3vw;
+}
+.list-group.list-group-horizontal{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+}
+ul {
+    list-style: none;
+}
+
+/*banner*/
+body{
+    background-image: url(/Documentos/yoprogramo3/assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+/*foto perfil*/
+section.about {
+    margin-top: 30%;
+}
+.rounded-circle.w-75{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -40%;
+    margin-left: 10%;
+}
+
+/*sobre mi*/
+.about-me#descripcion{
+    font-size: 1.2vw !important;
+    margin-bottom: 0;
+}
+.about#nombre_apellido{
+    font-size: 3vw !important;
+    margin-bottom: 0;
+}
+.about#profesion{
+    font-size: 1.5vw !important;
+    margin-bottom: 0;
+}
+.about#pais{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+.about#ciudad{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+.about#email{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+.about#celular{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+
+/*experiencia*/
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+.experiencia#nombre-empresa{
+    font-size: 2vw !important;
+    margin-bottom: 0;
+}
+.experiencia#cargo{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+.experiencia#fecha-desde, .experiencia#fecha-hasta{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+
+/*educacion*/
+.educacion#nombre{
+    font-size: 2vw !important;
+    margin-bottom: 0;
+}
+.educacion#descripcion{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+}
+
+/*habilidades*/
+.progress{
+    margin-top: 5%;
+}
+
+/*proyectos*/
+.proyectos#titulo{
+    font-size: 2vw !important;
+    margin-bottom: 0;
+}
+.proyectos#descripcion{
+    font-size: 1vw !important;
+    margin-bottom: 0;
+    padding-bottom: 5%;
+}
+
+/*footer*/
+.mapa-pdf{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(133,150,206,1) 50%, rgba(0,36,152,1) 100%);
+}
+.lista_footer{
+    list-style: none;
+    margin-top: 5%;
+    margin-left: 5%;
+    color:white;
+    font-size: 1vw !important;
+}
+footer {
+    padding-top: 2%;
+}
+.boton_pdf {
+    display: flex;
+    font-size: 5vw;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30%;
+    margin-top: 19%;
+    color:aliceblue;
+}
+
+/* - - - GENERAL - - -*/
+    
+    /*Borde de cajas*/
+        .container-fluid#caja {
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            border-style: solid;
+            border-radius: 1rem;
+            margin-left: 5%;
+            padding-bottom: 1%;
+            width: 90%;
+            margin-top: 1%;
+        }
+    /*Titulos de cajas*/
+        .titulo#titulo{
+            font-size: 3vw !important;
+            margin-bottom: 0;
+        }
+
+    /*Botones de edición*/
+        ul.list-group.list-group-horizontal.edicion {
+            font-size: 1.5vw;
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+            align-items: center;
+            --bs-link-color: black;
+        }
+        .col-2.text-center.edit {
+            font-size: 1.5vw;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            --bs-link-color: black;
+        }
+        .col-1.text-center.edit{
+            margin-left: -2rem;
+            font-size: 1.5vw;
+            display: flex;
+            align-items: center;
+            --bs-link-color: black;
+        }
